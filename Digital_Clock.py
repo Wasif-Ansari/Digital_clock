@@ -98,5 +98,6 @@ daylab_txt = Label(clock, text="DAY", font=("Times New Roman",20,"bold"),
 bg='white', fg='black')
 daylab_txt.place(x=780,y=410,height=30,width=100)
 
+date_time()
 
 clock.mainloop()
