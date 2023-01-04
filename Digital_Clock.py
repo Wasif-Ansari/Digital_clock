@@ -57,6 +57,21 @@ monthlab_txt = Label(clock, text="MONTH", font=("Times New Roman",20,"bold"),
 bg='white', fg='black')
 monthlab_txt.place(x=340,y=410,height=30,width=110)
 
+yearlab = Label(clock, text="00", font=("Times New Roman",40,"bold"),
+bg='white', fg='black')
+yearlab.place(x=560,y=270,height=110,width=100)
+
+yearlab_txt = Label(clock, text="YEAR", font=("Times New Roman",20,"bold"),
+bg='white', fg='black')
+yearlab_txt.place(x=560,y=410,height=30,width=100)
+
+daylab = Label(clock, text="00", font=("Times New Roman",40,"bold"),
+bg='white', fg='black')
+daylab.place(x=780,y=270,height=110,width=100)
+
+daylab_txt = Label(clock, text="DAY", font=("Times New Roman",20,"bold"),
+bg='white', fg='black')
+daylab_txt.place(x=780,y=410,height=30,width=100)
 
 
 clock.mainloop()
