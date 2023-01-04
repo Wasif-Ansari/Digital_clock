@@ -13,6 +13,16 @@ def date_time():
     year = time.strftime("%y")
     day = time.strftime("%a")
 
+    hour.config(text=hr)
+    minute.config(text=mn)
+    secs.config(text=sc)
+    ampm.config(text=am)
+    datelab.config(text=date)
+    monthlab.config(text=month)
+    yearlab.config(text=year)
+    daylab.config(text=day)
+
+
 clock = Tk()
 clock.title("     **** Digital Clock ****")
 clock.geometry("1000x500")
