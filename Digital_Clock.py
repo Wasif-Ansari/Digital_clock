@@ -31,7 +31,13 @@ secs_txt = Label(clock, text="SECS", font=("Times New Roman",20,"bold"),
 bg='white', fg='black')
 secs_txt.place(x=560,y=190,height=30,width=100)
 
+ampm = Label(clock, text="00", font=("Times New Roman",40,"bold"),
+bg='white', fg='black')
+ampm.place(x=780,y=45,height=110,width=100)
 
+ampm_txt = Label(clock, text="AM/PM", font=("Times New Roman",20,"bold"),
+bg='white', fg='black')
+ampm_txt.place(x=780,y=190,height=30,width=100)
 
 
 clock.mainloop()
