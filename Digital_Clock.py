@@ -22,6 +22,9 @@ def date_time():
     yearlab.config(text=year)
     daylab.config(text=day)
 
+    hour.after(200,date_time) #recalling to change every second
+    
+
 
 clock = Tk()
 clock.title("     **** Digital Clock ****")
