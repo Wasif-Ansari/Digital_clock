@@ -8,6 +8,11 @@ def date_time():
     sc = time.strftime("%S")
     am = time.strftime("%p")
 
+    date = time.strftime("%d")
+    month = time.strftime("%m")
+    year = time.strftime("%y")
+    day = time.strftime("%a")
+
 clock = Tk()
 clock.title("     **** Digital Clock ****")
 clock.geometry("1000x500")
