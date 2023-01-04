@@ -1,11 +1,18 @@
 from tkinter import *
 import datetime
 
+def date_time():
+    time = datetime.datetime.now()
+    hr = time.strftime("%I") #gives us hours
+    mn = time.strftime("%M") #minutes
+    sc = time.strftime("%S")
+    am = time.strftime("%p")
 
 clock = Tk()
 clock.title("     **** Digital Clock ****")
 clock.geometry("1000x500")
 clock.config(bg="Blue")
+
 
 hour = Label(clock, text="00", font=("Times New Roman",40,"bold"),
 bg='white', fg='black')
